@@ -15,4 +15,4 @@ jobs:
       name: folder1
       uses: thiago-scherrer/botform@0.0.8
       with:
-        tfarg: 'apply apply -auto-approve'
+        tfarg: 'apply -auto-approve'
