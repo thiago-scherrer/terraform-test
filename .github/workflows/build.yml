@@ -13,12 +13,16 @@ jobs:
       uses: actions/checkout@v2
     -
       name: folder1
-      uses: thiago-scherrer/botform@0.0.10
+      uses: thiago-scherrer/botform@0.0.11
       with:
         tfarg: 'apply -auto-approve'
+        tfversion: '1.0.1'
+
     -
       name: folder2
-      uses: thiago-scherrer/botform@0.0.10
+      uses: thiago-scherrer/botform@0.0.11
       with:
         tfarg: 'apply -auto-approve'
         tfdir: '42'
+        tfversion: '1.0.0'
+
