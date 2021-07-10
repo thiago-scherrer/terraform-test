@@ -1,0 +1,16 @@
+name: test terraform action
+
+on:
+  push:
+
+jobs:
+  build:
+    name: test1
+    runs-on: ubuntu-latest
+    steps:
+    -
+      name: Check out
+      uses: actions/checkout@v2
+    -
+      name: test2
+      uses: thiago-scherrer/botform@0.0.1
