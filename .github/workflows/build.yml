@@ -12,7 +12,7 @@ jobs:
       name: Check out
       uses: actions/checkout@v2
     -
-      name: test2
-      uses: thiago-scherrer/botform@0.0.7
+      name: folder1
+      uses: thiago-scherrer/botform@0.0.8
       with:
-        tfarg: 'plan'
+        tfarg: 'apply'
