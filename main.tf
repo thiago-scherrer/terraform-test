@@ -3,7 +3,7 @@ output "hello_world" {
 }
 
 variable "example" {
-  description = "Example variable"
+  description = "Example"
   type        = string
   default     = "example"
 }
