@@ -13,6 +13,6 @@ jobs:
       uses: actions/checkout@v2
     -
       name: test2
-      uses: thiago-scherrer/botform@0.0.4
+      uses: thiago-scherrer/botform@0.0.5
       with:
         arg: 'plan'
