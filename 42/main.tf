@@ -1,5 +1,5 @@
 output "hello_world" {
-  value = "Hello, World!"
+  value = "42424242"
 }
 
 variable "example" {
